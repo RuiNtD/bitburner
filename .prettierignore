@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+NetscriptDefinitions.d.ts
+BeginnersGuide.md
+README.md
+
+.eslintrc.json
+package-lock.json
+pnpm-lock.yaml
+package.json
