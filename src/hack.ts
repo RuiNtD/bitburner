@@ -11,7 +11,7 @@ export async function main(ns: NS) {
     const sec = ns.getServerSecurityLevel(host);
     // const mon = ns.getServerMoneyAvailable(host);
 
-    if (sec > minSec) await ns.weaken(host);
+    if (sec > minSec + 0.5) await ns.weaken(host);
     // else if (mon < maxMon) {
     else if (count == 5) {
       count = 0;
